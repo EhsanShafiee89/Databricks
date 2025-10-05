@@ -1,0 +1,67 @@
+{
+    "properties": {
+        "managedResourceGroupId": "/subscriptions/48375647-c01c-4c54-a7e3-2488a9399182/resourceGroups/databricks-rg-AzureDataBricks-fjifqclxga4zg",
+        "parameters": {
+            "enableFedRampCertification": {
+                "type": "Bool",
+                "value": false
+            },
+            "enableNoPublicIp": {
+                "type": "Bool",
+                "value": true
+            },
+            "prepareEncryption": {
+                "type": "Bool",
+                "value": false
+            },
+            "requireInfrastructureEncryption": {
+                "type": "Bool",
+                "value": false
+            },
+            "resourceTags": {
+                "type": "Object",
+                "value": {
+                    "application": "databricks",
+                    "databricks-environment": "true"
+                }
+            },
+            "storageAccountName": {
+                "type": "String",
+                "value": "dbstoragejwgdmp2w3vwhe"
+            },
+            "storageAccountSkuName": {
+                "type": "String",
+                "value": "Standard_GRS"
+            }
+        },
+        "provisioningState": "Succeeded",
+        "authorizations": [
+            {
+                "principalId": "9a74af6f-d153-4348-988a-e2672920bee9",
+                "roleDefinitionId": "8e3af657-a8ff-443c-a75c-2fe8c4bcb635"
+            }
+        ],
+        "createdBy": {
+            "oid": "1710fb65-77ac-4cc7-afdf-71926c510f0f",
+            "puid": "10032003E0B142A0",
+            "applicationId": "c44b4083-3bb0-49c1-b47d-974e53cbdf3c"
+        },
+        "updatedBy": {
+            "oid": "1710fb65-77ac-4cc7-afdf-71926c510f0f",
+            "puid": "10032003E0B142A0",
+            "applicationId": "c44b4083-3bb0-49c1-b47d-974e53cbdf3c"
+        },
+        "workspaceId": "3174563701308904",
+        "workspaceUrl": "adb-3174563701308904.4.azuredatabricks.net",
+        "createdDateTime": "2025-10-04T22:12:05.6351215Z"
+    },
+    "id": "/subscriptions/48375647-c01c-4c54-a7e3-2488a9399182/resourceGroups/AzureData/providers/Microsoft.Databricks/workspaces/AzureDataBricks",
+    "name": "AzureDataBricks",
+    "type": "Microsoft.Databricks/workspaces",
+    "sku": {
+        "name": "premium"
+    },
+    "location": "switzerlandnorth",
+    "tags": {},
+    "apiVersion": "2018-04-01"
+}
